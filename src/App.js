@@ -4,6 +4,7 @@ import Navbar from './Component/Navbar';
 import Body from './Component/Body';
 import Footer from './Component/Footer'
 
+
 function App() {
   return (
     <div className="App">

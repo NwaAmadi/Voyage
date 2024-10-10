@@ -16,6 +16,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    gap: 25px;
 }
 
 .footer h2 {
@@ -60,13 +61,21 @@ body {
 .footer-links ul li a:hover,
 .footer-social ul li a:hover {
     color: #00A859;
-    text-decoration: underline;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .footer-contact ul li i {
     margin-right: 10px;
 }
-
+.footer-contact a{
+    color: white;
+    text-decoration: none;
+}
+.footer-contact a:hover{
+    color:#00A859;
+    font-weight: bold;
+}
 .footer-social ul {
     display: flex;
     gap: 15px;

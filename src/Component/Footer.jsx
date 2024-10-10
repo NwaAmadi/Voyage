@@ -27,7 +27,7 @@ const Footer = ()=>
             <h2>Contact Us</h2>
             <ul>
                 <li><i class="fas fa-phone"></i> +234-7041-606568</li>
-                <li><i class="fas fa-envelope"></i> ukegbuchibuisi@gmail.com</li>
+                <li><i class="fas fa-envelope"></i><a href="mailto:chibuisiukegbu@gmail.com">chibuisiukegbu@gmail.com</a></li>
                 <li><i class="fas fa-map-marker-alt"></i>No.1 School Rd., Aba, Nigeria</li>
             </ul>
         </div>

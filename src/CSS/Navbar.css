@@ -49,14 +49,24 @@ nav {
   
   .navlinks li a:hover {
     text-decoration: none;
-    background-color: #d6c7aa;
+    background-color: rgb(182, 245, 182);
     padding: 6px;
     border-radius: 6px;
+    font-weight: bold;
   }
   
   .navlinks img {
     height: 35px; 
     border-radius: 50%;
-    margin-left: 20px;
+    margin-left: 5px;
   }
-  
+#ProfilePicture {
+  background-color: rgb(224, 224, 224);
+  padding: 5px;
+  height: 30px;
+}
+#logo{
+  background-color: #fff7e6;
+  border-radius: 50%;
+  padding: 5px;
+}

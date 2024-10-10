@@ -7,7 +7,7 @@ const Navbar = () =>
     <div>
         <nav>
             <div className = 'leftlinks'>
-                <img src={Icon} alt="Description of Image" />
+                <img id="logo" src={Icon} alt="Description of Image" />
                 <p><b>Voyage Vista</b></p>
             </div>
             <ul className='navlinks'>
@@ -15,10 +15,10 @@ const Navbar = () =>
                 <li><a href='#'>Explore</a></li>
                 <li><a href='#'>Flights</a></li>
                 <li><a href='#'>Hotels</a></li>
-                <img src={user} alt='profile picture'/>
+                <img id="ProfilePicture" src={user} alt='profile picture'/>
             </ul>
         </nav>
-        <hr className="navbar-divider"></hr>
+        
     </div>
 
 export default Navbar
