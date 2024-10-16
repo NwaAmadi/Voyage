@@ -1,7 +1,7 @@
 import React from 'react';
 import '../CSS/Navbar.css';
 import Icon from '../Elements/Icon.svg';
-import user from '../Elements/User3.png'
+import user from '../Elements/User3.png';
 
 const Navbar = () => 
     <div>
