@@ -39,22 +39,6 @@ nav {
     align-items: center;
     justify-content: center;
   }
-  
-  .navlinks li a {
-    text-decoration: none; 
-    color: rgb(56, 55, 55);
-    font-size: 16px;
-    
-  }
-  
-  .navlinks li a:hover {
-    text-decoration: none;
-    background-color: rgb(182, 245, 182);
-    padding: 6px;
-    border-radius: 6px;
-    font-weight: bold;
-  }
-  
  
 #ProfilePicture {
   background-color: rgb(241, 241, 241);
@@ -66,4 +50,25 @@ nav {
   background-color: #fff7e6;
   border-radius: 50%;
   padding: 5px;
+}
+
+.navlinks button{
+  text-decoration: none; 
+  font-size: 16px;
+  text-decoration: none;
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+
+}
+
+.navlinks button:hover {
+  text-decoration: none;
+  background-color: rgb(182, 245, 182);
+  padding: 8px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+button{
+  background: none;
 }
