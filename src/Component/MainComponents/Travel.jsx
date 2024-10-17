@@ -1,6 +1,11 @@
+import Navbar from "../Navbar";
+
 function Travel(params) {
     return(
-        <h1>This is the travel section</h1>
+        <div>
+            <Navbar/>
+            <h1>Travel page</h1>
+        </div>
     );
 }
 export default Travel
