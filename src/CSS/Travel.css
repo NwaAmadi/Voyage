@@ -1,0 +1,43 @@
+.container{
+    margin: 0 auto;
+}
+.Body{
+    margin: 0;
+    line-height: 0%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.upperSection{
+    padding-bottom: 5px;
+}
+.upperSection h3{
+    color: rgba(161, 130, 74, 1);
+    padding-top: 5px;
+}
+
+.upperSection h1{
+    color: rgba(28, 23, 13, 1);
+}
+.buttonSection{
+    float: left;
+    background-color: red;
+}
+.buttonSection p{
+    text-align: left;
+}
+.Departure {
+    display: flex;
+    gap: 5px;
+}
+.Departure p{
+    text-align: left;
+}
+.Departure img{
+    padding: 5px;
+}
+.dropdown img{
+    float: right;
+    margin: 5px;
+}
