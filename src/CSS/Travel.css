@@ -1,0 +1,55 @@
+.container2{
+    font-family: lexend;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+.Body{
+   font-family: lexend;
+  
+}
+
+.upperSection{
+    padding-bottom: 5px;
+}
+.upperSection h3{
+    color: rgba(161, 130, 74, 1);
+    padding-top: 5px;
+}
+
+.upperSection h1{
+    color: rgba(28, 23, 13, 1);
+}
+.buttonSection{
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    gap: 15px;
+}
+
+.Departure {
+    display: flex;
+    gap: 9px;
+    background-color: rgba(245, 240, 229, 1);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+
+.imageClass {
+    padding: 6px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.Departure p{
+    padding-left: 5px;
+}
