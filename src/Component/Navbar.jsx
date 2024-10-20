@@ -15,19 +15,12 @@ function Navbar() {
     return(
         <div>
             <nav>
-<<<<<<< HEAD
                 <button className='homeButton' onClick={() => handleClick('/')}>
                     <div className = 'leftlinks'>
                         <img id="logo" src={Icon} alt="" />
                         <p><b>Voyage Vista</b></p>
                     </div>
                 </button>
-=======
-                <div className = 'leftlinks'>
-                    <img id="logo" src={Icon} alt="" />
-                    <p><b>Voyage Vista</b></p>
-                </div>
->>>>>>> 6ca4ff97f348d31e16dd42b33909551fc33f8e9b
                 <ul className='navlinks'>
                     <li><button onClick={() => handleClick('/Travel')}>Travel</button></li>
                     <li><button onClick={() => handleClick('/Explore')}>Explore</button></li>

@@ -4,12 +4,8 @@ import '../CSS/Body.css'
 import Input from './Input';
 
 const Body = () => 
-<<<<<<< HEAD
     <div className='container'>
         <div className='Body'>
-=======
-    <div className='Body'>
->>>>>>> 6ca4ff97f348d31e16dd42b33909551fc33f8e9b
         <div className="hero-section">
             <div className="overlay">
                 <h1>Flights</h1>
@@ -33,8 +29,5 @@ const Body = () =>
             <button className='sb2'>search</button>
         </div>
     </div>
-<<<<<<< HEAD
     </div>
-=======
->>>>>>> 6ca4ff97f348d31e16dd42b33909551fc33f8e9b
 export default Body
