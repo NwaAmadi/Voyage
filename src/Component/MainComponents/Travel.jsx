@@ -2,6 +2,7 @@ import '../../CSS/Travel.css';
 import dropdown from '../../Elements/dropdown.png'
 import Footer from '../Footer';
 import Navbar from "../Navbar";
+import Airtag from '../SubComponents/Airtag';
 
 function Travel(params) {
 
@@ -60,6 +61,7 @@ function Travel(params) {
                     </div>
                     
                 </div>
+                <Airtag/>
             </div>
             <Footer/>
         </div>
