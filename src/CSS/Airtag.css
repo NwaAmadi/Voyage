@@ -1,5 +1,7 @@
 .airtag-container{
     background-color: rgba(245, 240, 229, 1);
-    padding: 7px;
+    padding: 10px;
     border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
 }

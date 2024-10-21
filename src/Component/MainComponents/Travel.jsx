@@ -2,7 +2,7 @@ import '../../CSS/Travel.css';
 import dropdown from '../../Elements/dropdown.png'
 import Footer from '../Footer';
 import Navbar from "../Navbar";
-import Airtag from '../SubComponents/Airtag';
+import Flightcard from '../SubComponents/Flightcard';
 
 function Travel(params) {
 
@@ -61,7 +61,13 @@ function Travel(params) {
                     </div>
                     
                 </div>
-                <Airtag/>
+                <Flightcard
+                    price={198}
+                    flightType="Nonstop"
+                    departureTime="5:30 AM"
+                    arrivalTime="1:00 PM"
+                    duration="6h 30m"
+                />
             </div>
             <Footer/>
         </div>
