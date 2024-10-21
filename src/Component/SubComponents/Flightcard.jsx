@@ -31,16 +31,16 @@ const styles = {
   card: {
     display: 'flex',
     justifyContent: 'space-between',
-    alignItems: 'center',
-    padding: '10px',
-    border: '1px solid #ddd',
+    gap: '50px',
+    padding: '5px',
     borderRadius: '8px',
-    width: '400px',
-    margin: '10px auto',
+    margin: '0 auto',
+    marginTop: '10px',
+    minWidth: '720px',
+    
   },
   leftSection: {
-    display: 'flex',
-    alignItems: 'center',
+    display:'flex',
   },
   icon: {
     fontSize: '24px',
@@ -63,14 +63,21 @@ const styles = {
   },
   time: {
     color: '#A6793C',
-    fontSize: '12px',
   },
   chooseButton: {
-    backgroundColor: '#F5F5F5',
+    backgroundColor: 'rgba(245, 240, 229, 1)',
     border: 'none',
     borderRadius: '5px',
-    padding: '8px 16px',
+    padding: '10px',
     cursor: 'pointer',
+    float: 'right',
+    marginLeft: 'auto',
+    color: 'rgba(28, 23, 13, 1)',
+    height: '30px',
+    width: 'auto',
+    alignItems: 'center',
+    justifyContent: 'center',
+    display: 'flex',
   },
 };
 export default Flightcard

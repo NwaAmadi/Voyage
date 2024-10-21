@@ -9,7 +9,7 @@ function Travel(params) {
     let takeoff = 'Sanfrancisco';
     let destination = 'Newyork';
     return (
-        <div>
+        <div className>
             <Navbar />
             <div className='container2'>
                 <div className='Body2'>
@@ -55,19 +55,67 @@ function Travel(params) {
                                         <img className='dropdown' src={dropdown} alt=''/>
                                     </div>
                                 </div>
-                            
-
+                               
                             </div>
+                                
                     </div>
                     
                 </div>
-                <Flightcard
+                
+                <Flightcard 
                     price={198}
                     flightType="Nonstop"
                     departureTime="5:30 AM"
                     arrivalTime="1:00 PM"
                     duration="6h 30m"
+                
                 />
+
+                <Flightcard 
+                    price={198}
+                    flightType="Nonstop"
+                    departureTime="5:30 AM"
+                    arrivalTime="1:00 PM"
+                    duration="6h 30m"
+                
+                />
+
+                <Flightcard 
+                    price={198}
+                    flightType="Nonstop"
+                    departureTime="5:30 AM"
+                    arrivalTime="1:00 PM"
+                    duration="6h 30m"
+                
+                />
+
+                <Flightcard 
+                    price={198}
+                    flightType="Nonstop"
+                    departureTime="5:30 AM"
+                    arrivalTime="1:00 PM"
+                    duration="6h 30m"
+                
+                />
+
+                <Flightcard 
+                    price={198}
+                    flightType="Nonstop"
+                    departureTime="5:30 AM"
+                    arrivalTime="1:00 PM"
+                    duration="6h 30m"
+                
+                />
+
+                <Flightcard 
+                    price={198}
+                    flightType="Nonstop"
+                    departureTime="5:30 AM"
+                    arrivalTime="1:00 PM"
+                    duration="6h 30m"
+                
+                />
+
             </div>
             <Footer/>
         </div>
