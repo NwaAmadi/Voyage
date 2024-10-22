@@ -5,12 +5,10 @@ const Flightcard = ({ price, flightType, departureTime, arrivalTime, duration })
   return (
     <div style={styles.card}>
       <div style={styles.leftSection}>
-        {/* Flight Icon */}
         <div style={styles.icon}>
           <Airtag/>
         </div>
 
-        {/* Flight Info */}
         <div style={styles.flightInfo}>
           <p style={styles.price}>${price}</p>
           <p style={styles.flightType}>{flightType}</p>
@@ -19,8 +17,6 @@ const Flightcard = ({ price, flightType, departureTime, arrivalTime, duration })
           </p>
         </div>
       </div>
-
-      {/* Choose Button */}
       <button style={styles.chooseButton}>Choose</button>
     </div>
   );
@@ -36,7 +32,7 @@ const styles = {
     borderRadius: '8px',
     margin: '0 auto',
     marginTop: '10px',
-    minWidth: '720px',
+    minWidth: '1000px',
     
   },
   leftSection: {

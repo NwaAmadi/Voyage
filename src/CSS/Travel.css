@@ -14,9 +14,10 @@
     /* yep*/
 
 }
-.Body{
+.Body2{
    font-family: lexend;
    margin: 0 auto;
+   min-width: 1000px;
   
 }
 

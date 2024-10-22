@@ -63,9 +63,9 @@ function Travel(params) {
                 </div>
                 
                 <Flightcard 
-                    price={198}
+                    price={200}
                     flightType="Nonstop"
-                    departureTime="5:30 AM"
+                    departureTime="4:55 AM"
                     arrivalTime="1:00 PM"
                     duration="6h 30m"
                 
@@ -81,7 +81,16 @@ function Travel(params) {
                 />
 
                 <Flightcard 
-                    price={198}
+                    price={598}
+                    flightType="Nonstop"
+                    departureTime="2:30 AM"
+                    arrivalTime="1:00 PM"
+                    duration="6h 30m"
+                
+                />
+
+                <Flightcard 
+                    price={300}
                     flightType="Nonstop"
                     departureTime="5:30 AM"
                     arrivalTime="1:00 PM"
@@ -90,7 +99,7 @@ function Travel(params) {
                 />
 
                 <Flightcard 
-                    price={198}
+                    price={152}
                     flightType="Nonstop"
                     departureTime="5:30 AM"
                     arrivalTime="1:00 PM"
@@ -99,16 +108,7 @@ function Travel(params) {
                 />
 
                 <Flightcard 
-                    price={198}
-                    flightType="Nonstop"
-                    departureTime="5:30 AM"
-                    arrivalTime="1:00 PM"
-                    duration="6h 30m"
-                
-                />
-
-                <Flightcard 
-                    price={198}
+                    price={128}
                     flightType="Nonstop"
                     departureTime="5:30 AM"
                     arrivalTime="1:00 PM"
