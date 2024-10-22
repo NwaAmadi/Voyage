@@ -10,7 +10,7 @@ const Flightcard = ({ price, flightType, departureTime, arrivalTime, duration })
         </div>
 
         <div style={styles.flightInfo}>
-          <p style={styles.price}>${price}</p>
+          <p style={styles.price}>${price}.00</p>
           <p style={styles.flightType}>{flightType}</p>
           <p style={styles.time}>
             {departureTime} - {arrivalTime} · {duration}
